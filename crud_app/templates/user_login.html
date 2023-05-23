@@ -8,12 +8,12 @@
   </head>
   <body>
     <nav class="navbar bg-dark" data-bs-theme="dark"">
-      <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1">USER - LOGIN </span>
+      <div class="container-fluid " style="display:flex;justify-content:center;align-items:center;">
+        <h1 class="text-white text-center">USER - LOGIN </h1>
       </div>
     </nav>
 
-    <form method="post">
+    <form method="post" class="p-4">
       {% csrf_token %}
       <div class="mb-3">
         <label for="username" class="form-label">Username</label>
